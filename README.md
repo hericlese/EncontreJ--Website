@@ -10,7 +10,7 @@
 
 
 
-Utilizei este curso para adquirir uma noção dos fundamentos, frameworks, regras, nele contem 3 paginas completas com resposividade, uma tela de cadastro de vagas utilizando o Node com banco de dados e uma tela de view das vagas adicionadas aos banco, com funções de pesquisa e filtros.
+Utilizei este curso para adquirir uma noção dos fundamentos, frameworks, regras, nele contem 3 paginas completas com resposividade, uma tela de cadastro de vagas utilizando o Node com banco de dados e uma tela de view das vagas adicionadas ao banco, com funções de pesquisa e filtros.
 EncontreJá é um website mais completo, desenvolvi com a base deste curso e muita pesquisa como criar tabelas relacionas, tela de login e sessão de login, (Adicionarei mais coisas, autentificação SMS, autentificação Email, aplicação mobile.
 
 Curso:https://www.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/
