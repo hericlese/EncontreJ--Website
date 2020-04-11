@@ -1,0 +1,240 @@
+* {                                                                         /*todos os itens*/
+    box-sizing:border-box;                                                  /* para elementos  sejam o tamando total do elemento, evita pixeis bizarros. */
+    font-family: Helvetica, sans-serif                                      /*caso nao tenha use a segunda opção*/    
+}
+
+/*----------------------------------------------------------------------------Nav------------------------------------------------------------------------------------*/
+
+.navbar{                                                            /*controle de fonte pra dispositiveis moveis*/
+    border-bottom: 1px solid #abc7c4;
+
+}
+
+.navbar a{                                                         /*controle de fonte pra dispositiveis moveis*/
+    font-weight: bold;   
+    font-size: 11px;  
+    
+    
+}
+.nav-item {   
+    width: 27%;
+    
+    
+                                                      /*espaçamento dos itens*/
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    
+    font-weight: bold;
+    color: #00BFA8;                                    /*BOTOES NAV PROPRIEDADES*/
+    font-size: 10px;      
+    padding-left: 10px;
+    margin-top: 20px;  
+    height: 40px;
+    line-height: 5px;  
+    text-align: right;
+   
+}
+.navbar-expand-lg .navbar-nav .nav-link img{ 
+    width: 40%;
+       
+                                                              /*BOTOES NAV*/
+}
+       
+.navbar img{    
+    width: 42%; 
+                    /*logo principal*/
+
+}
+.navbar .navbar-brand {    
+    color: #00352e; 
+    font-size: 12px;
+}
+
+/*----------------------------------------------------------------------------Nav------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------------main vagas e anunciantes------------------------------------------------------------------------------------*/
+
+
+#main-list-title{
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#main-container #main-list-title2{
+    margin-top: -20px; 
+    text-align: center;  
+    font-weight: bold;  
+}
+
+#main-list {
+    padding: 3px 3px;                                         /**/
+    float: right;
+    
+}
+#main-list2 {    
+    padding: 3px 3px;                                       /**/
+    color: #212529;
+    height: 130px;
+    float: right;
+  
+}
+
+.col-md-12 ul{
+    width:551px;   
+}
+
+.list-group-item img{
+    width: 260px;
+                                 /*tratando a imagem da lista*/
+    background-color: #FFF; 
+}
+
+.list-group-item #img{
+    margin-bottom: 2.5mm;
+}
+
+.list-group-item a{
+    
+    top: 10px;                                                 /*posicionamento do botão das vagas*/
+    height: 40px;
+    line-height: 30px;
+    background-color: #00BFA8;
+    border: 1px solid transparent;
+    border-radius: 50;
+    color: #FFFF;
+}
+
+.list-group-item a:hover { /*efeito botao*/
+    background-color: #FFF;
+    color:  #00BFA8;
+    border-color:  #00BFA8;
+    font-weight: bold; 
+    border-bottom: 1px solid #00BFA8;                        /* fim dos efeitos dos botoes*/
+}
+
+#main-container{    
+    margin-top: 110px;
+    text-align: center; 
+}
+#main-container h4{    
+    font-weight: bold; 
+    font-size: 19px;
+}
+
+/*----------------------------------------------------------------------------main vagas e anunciantes------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------login------------------------------------------------------------------------------------*/
+
+
+body #login ,#registrarbody{
+    margin: 0;
+    padding: 0;
+    background-color: #00BFA8;
+    height: 100vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 500px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+    border-radius: 10%;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+
+  /*----------------------------------------------------------------------------login------------------------------------------------------------------------------------*/
+
+
+  /*----------------------------------------------------------------------------Registrar------------------------------------------------------------------------------------*/
+
+  .container-registrousuario{
+    max-width: 800px;
+}
+ 
+#buttons-container .btn{    
+    top: 10px;                                                 /*posicionamento do botão das vagas*/
+    margin-top: 110px;
+    height: 40px;
+    line-height: 25px;
+    border-color:#00BFA8; 
+    border-radius: 5%;
+    color: #00BFA8; 
+    background-color: #FFF;
+    font-weight: bold; 
+    
+}
+
+#buttons-container .btn:hover { /*efeito botao*/
+    background-color: #abc7c4;
+    color:  #00BFA8;
+    border-color:  #00BFA8; 
+    font-weight: bold; 
+    border-bottom: 1px solid #00BFA8;                         /* fim dos efeitos dos botoes*/
+}
+
+
+#btnregistrarusuario {    
+    display: inline-block;
+                                        /*botoes registrar para cima*/
+   
+}
+
+#btnregistraempresa { 
+    display: inline-block;
+                                   /*botoes registrar para cima*/
+   
+   
+}
+
+#registrar {
+    padding: 2px 0px;             /*registro btn*/
+}
+
+  .hide{    
+    display: none !important;       /*escondendo escopo de registro*/
+}   
+#registrarpessoa{
+
+    width:500px;                                      /*registro de usuario*/
+    height: 650px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+    padding: 20px;
+    border-radius: 10%;
+    text-align: left;
+    font-weight: bold; 
+}
+
+#registrarempresa{
+
+    width:500px;                                        /*registro empresa*/
+    height: 700px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+    padding: 20px;
+    border-radius: 10%;
+    text-align: left;
+    font-weight: bold; 
+    
+    }
+
+
+#registrarpessoa , #registrarempresa{
+    padding: 20px;
+    border-radius: 4%;
+    margin-bottom: 5px;
+    font-size: 13px;
+
+}
+
+#registrar form input{
+    text-align: center;
+}

@@ -1,0 +1,142 @@
+
+<body id="registrarbody">
+         <main>                                                                                                                     <!-- MAIN Area de conteudo principal do site-->
+        <div id="registrar" class="row justify-content-center align-items-center" >
+            <div class="container-registrousuario">  
+
+                <ul id="btnregistrarusuario">
+                    <div id="buttons-container">
+                        <buttom id="btnusuario" class="btn btn-primary"  onclick="unhideregistro()"> Registrar Usuario </buttom>                
+                    </div>
+                 </ul>
+                 <ul id="btnregistraempresa">
+                    <div id="buttons-container">
+                         <buttom id="btnempresa" class="btn btn-primary"  onclick="unhideregistro2()"> Registrar Empresa </buttom>                
+                    </div>
+                </ul>
+
+                     <div id="registro-row" class="row justify-content-center align-items-center" >                 
+                        <div id="registrarpessoa" class="hide" >
+                            <form id="login-form" name="registrar" class="form" action="/cadastro/cadastrarpessoa" onsubmit="return senhaForm()" method="POST">
+                                <h4 class="text-center text-info">Registrar Usuário</h4>
+                            <!------------------------------------------------------------------------>
+                            
+                                <div class="form-group">
+                                    <label for="name" class="text-info" >Nome Completo:</label>
+                                    <input type="text" name="name" id="name" placeholder="Digite seu nome completo" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="text-info">Email:</label>
+                                    <input type="email" name="email" id="email"  placeholder="Digite seu email" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label  class="text-info">Senha:</label>
+                                    <input type="password" name="password" id="password"  placeholder="Digite uma sua senha" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha" class="text-info">Senha novamente:</label>
+                                    <input type="password" name="password2" id="password2" placeholder="Digite uma sua senha novamente" class="col-md-12">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="idade" class="text-info">Homem </label>
+                                    <input type="radio" value="2" name="sexo" value="Homem">
+                                    <label for="idade" class="text-info">Mulher </label>
+                                    <input type="radio" value="1" name="sexo" value="Mulher">
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="idade" class="text-info">Data de nascimento:</label>
+                                    <input id="idade" type="number" id="idade" name="idade" min="1" max="32122999">
+                                    <small id"titleHelp" class="text text-muted"><br>Insira sua data 10042010</small> 
+                                </div>
+                                <div class="form-group">
+                                    <label for="idade" class="text-info">Telefone:</label>
+                                    <input id="idade" type="number" id="telefone" name="telefone" min="1" max="11999999999" >
+                                    <small id"titleHelp" class="text text-muted"><br>Insira somente numeros</small> 
+                                </div>
+                                <div class="form-group">
+                                    <label for="idade" class="text-info">CEP:</label>
+                                    <input id="idade" type="number" id="cep" name="cep" min="1" max="051999999" >
+                                    <small id"titleHelp" class="text text-muted"><br>Insira somente numeros</small>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="registro-row" class="row justify-content-center align-items-center">                 
+                        <div id="registrarempresa" class="hide">
+                            <form id="login-form2" name="registrarempresaform" class="form" action="/cadastro/cadastrarEmpresa" onsubmit="return senhaForm2()" method="POST">
+                                <h4 class="text-center text-info">Registrar Empresa</h4>
+                            <!------------------------------------------------------------------------>
+                                <div class="form-group">
+                                    <label for="empresa" class="text-info" >Nome Completo:</label>
+                                    <input type="text" name="empresa" id="empresa" placeholder="Digite o nome da empresa" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="text-info">Email:</label>
+                                    <input type="email" name="email" id="email"  placeholder="Digite o email" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label  class="text-info">Senha:</label>
+                                    <input type="password" name="passwordempresa" id="passwordempresa"  placeholder="Digite uma senha" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha" class="text-info">Senha novamente:</label>
+                                    <input type="password" name="password3" id="password3" placeholder="Digite uma senha novamente" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="responsavel" class="text-info">Responsavel:</label>
+                                    <input type="text" name="responsavel" id="responsavel"  placeholder="Nome completo do responsavel pelo cadastro" class="col-md-12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="descripton" class="text-info">Descrição:</label>
+                                    <textarea type="text" class="form-control" id="description" name="company" placeholder="Descreva sua empresa aqui"></textarea>
+                                </div>
+            
+
+                                <div class="form-group">
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

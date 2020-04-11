@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/styles.css">
+    
+</head>    
+    <header>                                                                                                                  <!-- tag para cabeçalho -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">                                               <!-- tag para barra de navegação-->
+            <a class="navbar-brand" href="index.html"><img src="public/img/logotxt.png" alt="logo"></a>                                                       <!-- espaço de marca ao clicar encaminha para home do site -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigtai">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link "  href="index.html"><img src="public/img/btnprofissional.png" alt="ProcurarProfissional"> Procurar Profissional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="add.html"><img src="public/img/btnvagas.png" alt="ProcurarVagas"> Procurar Vagas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<body id="bodymain">
+    <main>                                                                                                                     <!-- MAIN Area de conteudo principal do site-->
+        <div id="main-container" class="container">
+            <div class="row">     <!--linhas-->
+                <div class="col-md-12">
+                    <h6 id="main-list-title"> EncontreJá, localize e faça contato rapidamente com profissionais que atendendem melhor os requisitos de sua empresa, ou anuncie uma vaga</h6>
+                    <h6 id="main-list-title2"> Ou caso está a procura de uma oportunidade, anuncie-se aqui para que as empresas possam te encontrar!!!</h6>
+                   <ul id="main-list" class="list-goup">
+                        <li class="list-group-item profissional">
+                            <img id="img" src="public/img/btnprofissional.png" alt="buscaprofissional">
+                            <h4>Anuncie a vaga de sua empresa aqui!!!</h4>
+                            <a class="btn btn-primary" >Anunciar Agora</a>
+                            <small id"titleHelp" class="text text-muted"><br>Caso nao queira procurar seu profissional anuncie vagas de sua empresa aqui!</small>  
+                       
+                            <h4>Busque seu profissional!</h4>
+                            <a class="btn btn-primary" href="login.html"> Buscar Profissional</a>
+                            <small id"titleHelp" class="text text-muted"><br>Busque um profissional de acordo com os atributos selecionados!</small>  
+                          
+                        </li>
+                    </ul> 
+                    <ul id="main-list2" class="list-goup">
+                        <li class="list-group-item vagas">
+                            <img src="public/img/btnvagas.png" alt="buscaprofissional">
+                            <h4>Anuncie seu curriculo já!</h4>
+                            <a class="btn btn-primary" href="login.html">Anunciar Curriculo</a>
+                            <small id"titleHelp" class="text text-muted"><br>Anuncie seu curriculo para que empresas possam te achar!</small>  
+                        
+                            <h4>Busque vagas de empresas!</h4>
+                            <a class="btn btn-primary" href="login.html"> Buscar Vagas</a>
+                            <small id"titleHelp" class="text text-muted"><br>Candidate-se a vagas de empresas!</small>       
+                  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
